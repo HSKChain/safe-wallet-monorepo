@@ -1,0 +1,28 @@
+name: Release
+on:
+  workflow_dispatch:
+  repository_dispatch:
+    types: ["Dispatched by safe-client-gateway"]
+permissions:
+  contents: write
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "lts/iron"
+          cache: "yarn"
+      - run: yarn install --immutable
+      - name: yarn ci
+        run: |
+          # Secrets don't inject unless exported
+          export NPM_DEPLOYMENT_HOOK_URL=${{ secrets.NPM_DEPLOYMENT_HOOK_URL }}
+          export NPM_DEPLOYMENT_HOOK_TOKEN=${{ secrets.NPM_DEPLOYMENT_HOOK_TOKEN }}
+          yarn ci

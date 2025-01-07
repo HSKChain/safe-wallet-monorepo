@@ -1,0 +1,20 @@
+{
+  "license": "MIT",
+  "name": "@safe-global/safe-client-gateway-sdk",
+  "version": "1.60.1",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "ci": "tsx scripts/ci.ts ci"
+  },
+  "dependencies": {
+    "openapi-fetch": "0.10.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.3.0",
+    "openapi-typescript": "7.3.0",
+    "prettier": "^3.3.3",
+    "tsx": "^4.17.0",
+    "typescript": "^5.5.4"
+  }
+}
