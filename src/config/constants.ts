@@ -81,6 +81,7 @@ export const HelpCenterArticle = {
   SPAM_TOKENS: `${HELP_CENTER_URL}/en/articles/40784-default-token-list-local-hiding-of-spam-tokens`,
   SPENDING_LIMITS: `${HELP_CENTER_URL}/en/articles/40842-set-up-and-use-spending-limits`,
   TRANSACTION_GUARD: `${HELP_CENTER_URL}/en/articles/40809-what-is-a-transaction-guard`,
+  VERIFY_TRANSACTIONS: `${HELP_CENTER_URL}/en/articles/276343-how-to-perform-basic-transactions-checks-on-safe-wallet`,
   UNEXPECTED_DELEGATE_CALL: `${HELP_CENTER_URL}/en/articles/40794-why-do-i-see-an-unexpected-delegate-call-warning-in-my-transaction`,
   PROPOSERS: `${HELP_CENTER_URL}/en/articles/235770-proposers`,
   PUSH_NOTIFICATIONS: `${HELP_CENTER_URL}/en/articles/99197-how-to-start-receiving-web-push-notifications-in-the-web-wallet`,
@@ -97,8 +98,10 @@ export const RECOVERY_FEEDBACK_FORM =
 export const DISCORD_URL = 'https://chat.safe.global'
 export const TWITTER_URL = 'https://twitter.com/safe'
 
-// Legal
+// Legal / Brand (for unofficial deployments: set NEXT_PUBLIC_BRAND_NAME to avoid Safe Browsing "deceptive site" flags)
 export const IS_OFFICIAL_HOST = process.env.NEXT_PUBLIC_IS_OFFICIAL_HOST === 'true'
+export const BRAND_NAME =
+  process.env.NEXT_PUBLIC_BRAND_NAME || (IS_OFFICIAL_HOST ? 'Safe{Wallet}' : 'Safe (Unofficial)')
 
 // Risk mitigation (Blockaid)
 export const BLOCKAID_API = 'https://client.blockaid.io'
