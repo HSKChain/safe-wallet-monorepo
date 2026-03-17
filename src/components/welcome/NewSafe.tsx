@@ -24,9 +24,8 @@ const NewSafe = () => {
     <>
       <Alert severity="warning" sx={{ mx: 3, mt: 2 }} variant="outlined">
         <AlertTitle sx={{ fontWeight: 700 }}>Security notice</AlertTitle>
-        Due to recent security incidents it is important to{' '}
-        <strong>ALWAYS verify transactions</strong> that you are approving on your signer wallet. If you can&apos;t
-        verify it, don&apos;t sign it.{' '}
+        Due to recent security incidents it is important to <strong>ALWAYS verify transactions</strong> that you are
+        approving on your signer wallet. If you can&apos;t verify it, don&apos;t sign it.{' '}
         <Link href={HelpCenterArticle.VERIFY_TRANSACTIONS} target="_blank" rel="noopener noreferrer">
           More information in the help center
         </Link>
