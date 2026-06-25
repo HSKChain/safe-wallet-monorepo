@@ -4,7 +4,7 @@ import type { Dispatch, SetStateAction } from 'react'
 import { type ReactElement } from 'react'
 import { useRouter } from 'next/router'
 import type { Url } from 'next/dist/shared/lib/router/router'
-import { IconButton, Paper } from '@mui/material'
+import { IconButton, Paper, Typography } from '@mui/material'
 import MenuIcon from '@mui/icons-material/Menu'
 import classnames from 'classnames'
 import css from './styles.module.css'
@@ -13,7 +13,6 @@ import NetworkSelector from '@/components/common/NetworkSelector'
 import SafeTokenWidget from '@/components/common/SafeTokenWidget'
 import NotificationCenter from '@/components/notification-center/NotificationCenter'
 import { AppRoutes } from '@/config/routes'
-import SafeLogo from '@/public/images/logo.svg'
 import SafeLogoMobile from '@/public/images/logo-no-text.svg'
 import Link from 'next/link'
 import useSafeAddress from '@/hooks/useSafeAddress'
@@ -82,8 +81,11 @@ const Header = ({ onMenuToggle, onBatchToggle }: HeaderProps): ReactElement => {
       </div>
 
       <div className={classnames(css.element, css.hideMobile, css.logo)}>
-        <Link href={logoHref} passHref>
-          <SafeLogo alt="Safe logo" />
+        <Link href={logoHref} passHref style={{ textDecoration: 'none' }}>
+          {/* 去掉官方 Safe{WALLET} 字标, 改为 HashKey 自有品牌文字 */}
+          <Typography variant="h4" sx={{ fontWeight: 700, color: 'text.primary' }}>
+            HashKey Safe
+          </Typography>
         </Link>
       </div>
 

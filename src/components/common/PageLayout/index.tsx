@@ -5,6 +5,7 @@ import Header from '@/components/common/Header'
 import css from './styles.module.css'
 import SafeLoadingError from '../SafeLoadingError'
 import Footer from '../Footer'
+import SecurityNotice from '../SecurityNotice'
 import SideDrawer from './SideDrawer'
 import { useIsSidebarRoute } from '@/hooks/useIsSidebarRoute'
 import { TxModalContext } from '@/components/tx-flow'
@@ -25,6 +26,8 @@ const PageLayout = ({ pathname, children }: { pathname: string; children: ReactE
       <header className={css.header}>
         <Header onMenuToggle={isSidebarRoute ? setSidebarOpen : undefined} onBatchToggle={setBatchOpen} />
       </header>
+
+      <SecurityNotice />
 
       {isSidebarRoute && <SideDrawer isOpen={isSidebarOpen} onToggle={setSidebarOpen} />}
 
