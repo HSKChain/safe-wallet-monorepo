@@ -3,23 +3,22 @@ import { ContentSecurityPolicy, StrictTransportSecurity } from '@/config/securit
 import lightPalette from '@/components/theme/lightPalette'
 import darkPalette from '@/components/theme/darkPalette'
 
-const descriptionText = 'Safe{Wallet} is the most trusted smart account wallet on Ethereum with over $100B secured.'
-const titleText = 'Safe{Wallet}'
+// 使用 HashKey 自有品牌信息, 避免被反钓鱼模型判定为对官方 Safe{Wallet} 的品牌仿冒
+const descriptionText = 'Official self-hosted Safe multisig wallet interface for HashKey Chain.'
+const titleText = 'HashKey Safe'
 
 const MetaTags = ({ prefetchUrl }: { prefetchUrl: string }) => (
   <>
     <meta name="description" content={descriptionText} />
-    {!IS_PRODUCTION && <meta name="robots" content="noindex" />}
+    {/* 多签管理后台无需被搜索引擎收录, 始终 noindex 以降低对外暴露面 */}
+    <meta name="robots" content="noindex, nofollow" />
 
-    {/* Social sharing */}
-    <meta name="og:image" content="https://app.safe.global/images/social-share.png" />
+    {/* Social sharing: 不再引用 app.safe.global 的资源, 避免冒充官方域名 */}
     <meta name="og:description" content={descriptionText} />
     <meta name="og:title" content={titleText} />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@safe" />
+    <meta name="twitter:card" content="summary" />
     <meta name="twitter:title" content={titleText} />
     <meta name="twitter:description" content={descriptionText} />
-    <meta name="twitter:image" content="https://app.safe.global/images/social-share.png" />
 
     {/* CSP */}
     <meta httpEquiv="Content-Security-Policy" content={ContentSecurityPolicy} />
