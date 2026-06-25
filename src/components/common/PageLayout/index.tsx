@@ -27,8 +27,6 @@ const PageLayout = ({ pathname, children }: { pathname: string; children: ReactE
         <Header onMenuToggle={isSidebarRoute ? setSidebarOpen : undefined} onBatchToggle={setBatchOpen} />
       </header>
 
-      <SecurityNotice />
-
       {isSidebarRoute && <SideDrawer isOpen={isSidebarOpen} onToggle={setSidebarOpen} />}
 
       <div
@@ -37,6 +35,8 @@ const PageLayout = ({ pathname, children }: { pathname: string; children: ReactE
           [css.mainAnimated]: isSidebarRoute && isAnimated,
         })}
       >
+        <SecurityNotice />
+
         <div className={css.content}>
           <SafeLoadingError>{children}</SafeLoadingError>
         </div>
