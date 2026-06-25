@@ -30,8 +30,8 @@ const SecurityNotice = (): ReactElement => {
         <DialogTitle>Security notice</DialogTitle>
         <DialogContent>
           <Typography variant="body2" mb={2}>
-            Due to recent security incidents it is important to ALWAYS verify transactions that you are approving on your
-            signer wallet. If you can&apos;t verify it, don&apos;t sign it.
+            Due to recent security incidents it is important to ALWAYS verify transactions that you are approving on
+            your signer wallet. If you can&apos;t verify it, don&apos;t sign it.
           </Typography>
           <Typography variant="body2">
             More information on how to verify a transaction can be found in the <b>help center</b>.
