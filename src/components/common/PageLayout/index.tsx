@@ -5,7 +5,6 @@ import Header from '@/components/common/Header'
 import css from './styles.module.css'
 import SafeLoadingError from '../SafeLoadingError'
 import Footer from '../Footer'
-import SecurityNotice from '../SecurityNotice'
 import SideDrawer from './SideDrawer'
 import { useIsSidebarRoute } from '@/hooks/useIsSidebarRoute'
 import { TxModalContext } from '@/components/tx-flow'
@@ -35,8 +34,6 @@ const PageLayout = ({ pathname, children }: { pathname: string; children: ReactE
           [css.mainAnimated]: isSidebarRoute && isAnimated,
         })}
       >
-        <SecurityNotice />
-
         <div className={css.content}>
           <SafeLoadingError>{children}</SafeLoadingError>
         </div>

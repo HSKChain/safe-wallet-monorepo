@@ -40,7 +40,7 @@ const WelcomeLogin = () => {
   return (
     <Paper className={css.loginCard} data-testid="welcome-login">
       <Box className={css.loginContent}>
-        <Box display="flex" alignItems="center" gap={1.5} alignSelf="flex-start" ml="-4px">
+        <Box display="flex" alignItems="center" gap={1.5} justifyContent="center">
           <SvgIcon component={HskLogo} inheritViewBox sx={{ height: '28px', width: '40px' }} />
           <Typography variant="h6" fontWeight={700}>
             HSKChain Safe
