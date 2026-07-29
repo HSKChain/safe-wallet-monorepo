@@ -34,7 +34,7 @@ const Footer = (): ReactElement | null => {
         <li>
           <ExternalLink href={GITHUB_REPO_URL} noIcon>
             <SvgIcon component={GitHubIcon} inheritViewBox fontSize="inherit" sx={{ mr: 0.5 }} />
-            github-hskchain
+            HSKChain-Safe
           </ExternalLink>
         </li>
       </ul>
