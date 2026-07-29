@@ -13,7 +13,7 @@ const StakePage: NextPage = () => {
   return (
     <>
       <Head>
-        <title>{'HashKey Safe – Stake'}</title>
+        <title>HashKey Safe – Stake</title>
       </Head>
 
       {isFeatureEnabled === true ? (

@@ -33,7 +33,7 @@ const SwapPage: NextPage = () => {
   return (
     <>
       <Head>
-        <title>{'HashKey Safe – Swap'}</title>
+        <title>HashKey Safe – Swap</title>
       </Head>
 
       <main style={{ height: 'calc(100vh - 52px)' }}>

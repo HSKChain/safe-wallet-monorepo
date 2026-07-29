@@ -26,7 +26,7 @@ const Messages: NextPage = () => {
   return (
     <>
       <Head>
-        <title>{'HashKey Safe – Messages'}</title>
+        <title>HashKey Safe – Messages</title>
       </Head>
 
       <TxHeader>

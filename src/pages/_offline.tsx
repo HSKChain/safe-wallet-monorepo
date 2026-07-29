@@ -7,7 +7,7 @@ const Offline: NextPage = () => {
   return (
     <>
       <Head>
-        <title>{'HashKey Safe – Offline'}</title>
+        <title>HashKey Safe – Offline</title>
       </Head>
 
       <main>

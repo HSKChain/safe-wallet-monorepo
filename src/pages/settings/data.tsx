@@ -7,7 +7,7 @@ const Data: NextPage = () => {
   return (
     <>
       <Head>
-        <title>{'HashKey Safe – Settings – Data'}</title>
+        <title>HashKey Safe – Settings – Data</title>
       </Head>
 
       <SettingsHeader />

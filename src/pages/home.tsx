@@ -7,7 +7,7 @@ const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <title>{'HashKey Safe – Dashboard'}</title>
+        <title>HashKey Safe – Dashboard</title>
       </Head>
 
       <main>

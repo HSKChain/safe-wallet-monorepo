@@ -32,7 +32,7 @@ const Appearance: NextPage = () => {
   return (
     <>
       <Head>
-        <title>{'HashKey Safe – Settings – Appearance'}</title>
+        <title>HashKey Safe – Settings – Appearance</title>
       </Head>
       <SettingsHeader />
       <main>

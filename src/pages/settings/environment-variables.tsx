@@ -7,7 +7,7 @@ const EnvironmentVariablesPage: NextPage = () => {
   return (
     <>
       <Head>
-        <title>{'HashKey Safe – Settings – Environment variables'}</title>
+        <title>HashKey Safe – Settings – Environment variables</title>
       </Head>
 
       <SettingsHeader />
