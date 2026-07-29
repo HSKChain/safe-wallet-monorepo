@@ -1,19 +1,19 @@
 /* This file is generated from the MUI theme colors. Do not edit directly. */
 
 :root {
-  --color-text-primary: #121312;
-  --color-text-secondary: #a1a3a7;
-  --color-text-disabled: #dddee0;
-  --color-primary-dark: #3c3c3c;
-  --color-primary-main: #121312;
-  --color-primary-light: #636669;
-  --color-secondary-dark: #0fda6d;
-  --color-secondary-main: #12ff80;
-  --color-secondary-light: #b0ffc9;
-  --color-secondary-background: #effff4;
-  --color-border-main: #a1a3a7;
-  --color-border-light: #dcdee0;
-  --color-border-background: #f4f4f4;
+  --color-text-primary: #1a1228;
+  --color-text-secondary: #7a7096;
+  --color-text-disabled: #c9c2dc;
+  --color-primary-dark: #1a1228;
+  --color-primary-main: #1a1228;
+  --color-primary-light: #7a7096;
+  --color-secondary-dark: #5a3fb8;
+  --color-secondary-main: #7c5ce0;
+  --color-secondary-light: #d2b8ff;
+  --color-secondary-background: #f0eaff;
+  --color-border-main: #a89bc4;
+  --color-border-light: #e4ddf5;
+  --color-border-background: #f7f4ff;
   --color-error-dark: #ac2c3b;
   --color-error-main: #ff5f72;
   --color-error-light: #ffb4bd;
@@ -30,14 +30,14 @@
   --color-warning-main: #ff8061;
   --color-warning-light: #ffbc9f;
   --color-warning-background: #fff1e0;
-  --color-background-default: #f4f4f4;
-  --color-background-main: #f4f4f4;
+  --color-background-default: #f7f4ff;
+  --color-background-main: #f7f4ff;
   --color-background-paper: #ffffff;
-  --color-background-light: #effff4;
-  --color-backdrop-main: #636669;
-  --color-logo-main: #121312;
-  --color-logo-background: #eeeff0;
-  --color-static-main: #121312;
+  --color-background-light: #f0eaff;
+  --color-backdrop-main: #7a7096;
+  --color-logo-main: #1a1228;
+  --color-logo-background: #efe8ff;
+  --color-static-main: #1a1228;
   --space-1: 8px;
   --space-2: 16px;
   --space-3: 24px;
@@ -53,19 +53,19 @@
 }
 
 [data-theme='dark'] {
-  --color-text-primary: #ffffff;
-  --color-text-secondary: #636669;
-  --color-text-disabled: #636669;
-  --color-primary-dark: #0cb259;
-  --color-primary-main: #12ff80;
-  --color-primary-light: #a1a3a7;
-  --color-secondary-dark: #636669;
-  --color-secondary-main: #ffffff;
-  --color-secondary-light: #12ff80;
-  --color-secondary-background: #1b2a22;
-  --color-border-main: #636669;
-  --color-border-light: #303033;
-  --color-border-background: #121312;
+  --color-text-primary: #f4f0ff;
+  --color-text-secondary: #a89bc4;
+  --color-text-disabled: #6e6485;
+  --color-primary-dark: #8b6cf6;
+  --color-primary-main: #ae82f1;
+  --color-primary-light: #d2b8ff;
+  --color-secondary-dark: #a89bc4;
+  --color-secondary-main: #f4f0ff;
+  --color-secondary-light: #e8deff;
+  --color-secondary-background: #1a1228;
+  --color-border-main: #6e6485;
+  --color-border-light: #2a1f45;
+  --color-border-background: #0f0b16;
   --color-error-dark: #ac2c3b;
   --color-error-main: #ff5f72;
   --color-error-light: #ffb4bd;
@@ -82,32 +82,32 @@
   --color-warning-main: #ff8061;
   --color-warning-light: #ffbc9f;
   --color-warning-background: #2f2318;
-  --color-background-default: #121312;
-  --color-background-main: #121312;
-  --color-background-paper: #1c1c1c;
-  --color-background-light: #1b2a22;
-  --color-backdrop-main: #636669;
-  --color-logo-main: #ffffff;
-  --color-logo-background: #303033;
-  --color-static-main: #121312;
+  --color-background-default: #0f0b16;
+  --color-background-main: #0f0b16;
+  --color-background-paper: #16101f;
+  --color-background-light: #1a1228;
+  --color-backdrop-main: #6e6485;
+  --color-logo-main: #f4f0ff;
+  --color-logo-background: #2a1f45;
+  --color-static-main: #0f0b16;
 }
 
 /* The same as above for the brief moment before JS loads */
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme='light']) {
-    --color-text-primary: #ffffff;
-    --color-text-secondary: #636669;
-    --color-text-disabled: #636669;
-    --color-primary-dark: #0cb259;
-    --color-primary-main: #12ff80;
-    --color-primary-light: #a1a3a7;
-    --color-secondary-dark: #636669;
-    --color-secondary-main: #ffffff;
-    --color-secondary-light: #12ff80;
-    --color-secondary-background: #1b2a22;
-    --color-border-main: #636669;
-    --color-border-light: #303033;
-    --color-border-background: #121312;
+    --color-text-primary: #f4f0ff;
+    --color-text-secondary: #a89bc4;
+    --color-text-disabled: #6e6485;
+    --color-primary-dark: #8b6cf6;
+    --color-primary-main: #ae82f1;
+    --color-primary-light: #d2b8ff;
+    --color-secondary-dark: #a89bc4;
+    --color-secondary-main: #f4f0ff;
+    --color-secondary-light: #e8deff;
+    --color-secondary-background: #1a1228;
+    --color-border-main: #6e6485;
+    --color-border-light: #2a1f45;
+    --color-border-background: #0f0b16;
     --color-error-dark: #ac2c3b;
     --color-error-main: #ff5f72;
     --color-error-light: #ffb4bd;
@@ -124,13 +124,13 @@
     --color-warning-main: #ff8061;
     --color-warning-light: #ffbc9f;
     --color-warning-background: #2f2318;
-    --color-background-default: #121312;
-    --color-background-main: #121312;
-    --color-background-paper: #1c1c1c;
-    --color-background-light: #1b2a22;
-    --color-backdrop-main: #636669;
-    --color-logo-main: #ffffff;
-    --color-logo-background: #303033;
-    --color-static-main: #121312;
+    --color-background-default: #0f0b16;
+    --color-background-main: #0f0b16;
+    --color-background-paper: #16101f;
+    --color-background-light: #1a1228;
+    --color-backdrop-main: #6e6485;
+    --color-logo-main: #f4f0ff;
+    --color-logo-background: #2a1f45;
+    --color-static-main: #0f0b16;
   }
 }

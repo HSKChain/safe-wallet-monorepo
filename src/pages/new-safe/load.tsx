@@ -11,7 +11,7 @@ const Load: NextPage = () => {
   return (
     <main>
       <Head>
-        <title>HashKey Safe – Add Safe Account</title>
+        <title>HSKChain Safe – Add Safe Account</title>
       </Head>
 
       {safeAddress ? (

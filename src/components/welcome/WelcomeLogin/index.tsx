@@ -1,6 +1,6 @@
 import { AppRoutes } from '@/config/routes'
 import { Paper, SvgIcon, Typography, Divider, Box, Button, Link } from '@mui/material'
-import SafeLogo from '@/public/images/logo-text.svg'
+import HskLogo from '@/public/images/logo-no-text.svg'
 import css from './styles.module.css'
 import { useRouter } from 'next/router'
 import { CREATE_SAFE_EVENTS } from '@/services/analytics/events/createLoadSafe'
@@ -40,7 +40,12 @@ const WelcomeLogin = () => {
   return (
     <Paper className={css.loginCard} data-testid="welcome-login">
       <Box className={css.loginContent}>
-        <SvgIcon component={SafeLogo} inheritViewBox sx={{ height: '24px', width: '80px', ml: '-8px' }} />
+        <Box display="flex" alignItems="center" gap={1.5} alignSelf="flex-start" ml="-4px">
+          <SvgIcon component={HskLogo} inheritViewBox sx={{ height: '28px', width: '40px' }} />
+          <Typography variant="h6" fontWeight={700}>
+            HSKChain Safe
+          </Typography>
+        </Box>
 
         <Typography variant="h6" mt={6} fontWeight={700}>
           Get started

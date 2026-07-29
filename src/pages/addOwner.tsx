@@ -23,7 +23,7 @@ const AddOwner: NextPage = () => {
   return (
     <>
       <Head>
-        <title>HashKey Safe – Add Signer</title>
+        <title>HSKChain Safe – Add Signer</title>
       </Head>
     </>
   )

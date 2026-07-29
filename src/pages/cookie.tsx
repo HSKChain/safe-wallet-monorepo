@@ -593,7 +593,7 @@ const CookiePolicy: NextPage = () => {
   return (
     <>
       <Head>
-        <title>HashKey Safe – Cookie policy</title>
+        <title>HSKChain Safe – Cookie policy</title>
       </Head>
 
       <main>{IS_OFFICIAL_HOST && <SafeCookiePolicy />}</main>

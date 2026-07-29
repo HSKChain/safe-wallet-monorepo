@@ -6,7 +6,7 @@ const Accounts: NextPage = () => {
   return (
     <>
       <Head>
-        <title>HashKey Safe – My accounts</title>
+        <title>HSKChain Safe – My accounts</title>
       </Head>
 
       <MyAccounts />

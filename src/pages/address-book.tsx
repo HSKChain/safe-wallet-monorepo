@@ -6,7 +6,7 @@ const AddressBook: NextPage = () => {
   return (
     <>
       <Head>
-        <title>HashKey Safe – Address book</title>
+        <title>HSKChain Safe – Address book</title>
       </Head>
 
       <AddressBookTable />

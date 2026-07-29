@@ -13,7 +13,7 @@ const Terms: NextPage = () => {
   return (
     <>
       <Head>
-        <title>HashKey Safe – Terms</title>
+        <title>HSKChain Safe – Terms</title>
       </Head>
 
       <main>{IS_OFFICIAL_HOST && <SafeTerms components={overrideComponents} />}</main>

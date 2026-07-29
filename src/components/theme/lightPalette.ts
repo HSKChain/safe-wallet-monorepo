@@ -1,24 +1,24 @@
 const lightPalette = {
   text: {
-    primary: '#121312',
-    secondary: '#A1A3A7',
-    disabled: '#DDDEE0',
+    primary: '#1A1228',
+    secondary: '#7A7096',
+    disabled: '#C9C2DC',
   },
   primary: {
-    dark: '#3c3c3c',
-    main: '#121312',
-    light: '#636669',
+    dark: '#1A1228',
+    main: '#1A1228',
+    light: '#7A7096',
   },
   secondary: {
-    dark: '#0FDA6D',
-    main: '#12FF80',
-    light: '#B0FFC9',
-    background: '#EFFFF4',
+    dark: '#5A3FB8',
+    main: '#7C5CE0',
+    light: '#D2B8FF',
+    background: '#F0EAFF',
   },
   border: {
-    main: '#A1A3A7',
-    light: '#DCDEE0',
-    background: '#F4F4F4',
+    main: '#A89BC4',
+    light: '#E4DDF5',
+    background: '#F7F4FF',
   },
   error: {
     dark: '#AC2C3B',
@@ -45,20 +45,20 @@ const lightPalette = {
     background: '#FFF1E0',
   },
   background: {
-    default: '#F4F4F4',
-    main: '#F4F4F4',
+    default: '#F7F4FF',
+    main: '#F7F4FF',
     paper: '#FFFFFF',
-    light: '#EFFFF4',
+    light: '#F0EAFF',
   },
   backdrop: {
-    main: '#636669',
+    main: '#7A7096',
   },
   logo: {
-    main: '#121312',
-    background: '#EEEFF0',
+    main: '#1A1228',
+    background: '#EFE8FF',
   },
   static: {
-    main: '#121312',
+    main: '#1A1228',
   },
 }
 

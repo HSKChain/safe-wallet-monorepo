@@ -57,7 +57,7 @@ const NFTs: NextPage = () => {
   return (
     <>
       <Head>
-        <title>HashKey Safe – NFTs</title>
+        <title>HSKChain Safe – NFTs</title>
       </Head>
 
       <AssetsHeader />

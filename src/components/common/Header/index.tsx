@@ -76,15 +76,15 @@ const Header = ({ onMenuToggle, onBatchToggle }: HeaderProps): ReactElement => {
 
       <div className={classnames(css.element, css.logoMobile)}>
         <Link href={logoHref} passHref>
-          <SafeLogoMobile alt="Safe logo" />
+          <SafeLogoMobile alt="HSKChain Safe logo" />
         </Link>
       </div>
 
       <div className={classnames(css.element, css.hideMobile, css.logo)}>
         <Link href={logoHref} passHref style={{ textDecoration: 'none' }}>
-          {/* 去掉官方 Safe{WALLET} 字标, 改为 HashKey 自有品牌文字 */}
+          {/* 去掉官方 Safe{WALLET} 字标, 改为 HSKChain 自有品牌文字 */}
           <Typography variant="h4" sx={{ fontWeight: 700, color: 'text.primary' }}>
-            HashKey Safe
+            HSKChain Safe
           </Typography>
         </Link>
       </div>

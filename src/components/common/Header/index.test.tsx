@@ -73,7 +73,7 @@ describe('Header', () => {
 
   it('displays the safe logo', () => {
     render(<Header />)
-    expect(screen.getAllByAltText('Safe logo')[0]).toBeInTheDocument()
+    expect(screen.getAllByAltText('HSKChain Safe logo')[0]).toBeInTheDocument()
   })
 
   it('renders the BatchIndicator when showBatchButton is true', () => {

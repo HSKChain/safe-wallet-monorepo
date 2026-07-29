@@ -9,7 +9,7 @@ const SafeAppsPermissionsPage: NextPage = () => {
   return (
     <>
       <Head>
-        <title>HashKey Safe – Settings – Safe Apps</title>
+        <title>HSKChain Safe – Settings – Safe Apps</title>
       </Head>
 
       <SettingsHeader />

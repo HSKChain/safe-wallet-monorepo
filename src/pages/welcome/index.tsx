@@ -6,7 +6,7 @@ const Welcome: NextPage = () => {
   return (
     <>
       <Head>
-        <title>HashKey Safe – Welcome</title>
+        <title>HSKChain Safe – Welcome</title>
       </Head>
 
       <NewSafe />

@@ -8,7 +8,7 @@ const Cookies: NextPage = () => {
   return (
     <>
       <Head>
-        <title>HashKey Safe – Settings – Cookies</title>
+        <title>HSKChain Safe – Settings – Cookies</title>
       </Head>
 
       <SettingsHeader />

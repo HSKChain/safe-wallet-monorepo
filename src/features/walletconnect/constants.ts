@@ -31,10 +31,10 @@ export const SAFE_COMPATIBLE_METHODS = [
 export const SAFE_COMPATIBLE_EVENTS = ['chainChanged', 'accountsChanged']
 
 export const SAFE_WALLET_METADATA = {
-  name: 'Safe{Wallet}',
-  url: 'https://app.safe.global',
-  description: 'Smart contract wallet for Ethereum',
-  icons: ['https://app.safe.global/images/logo-round.svg'],
+  name: 'HSKChain Safe',
+  url: 'https://multisig.hashkeychain.net',
+  description: 'Smart contract multisig wallet for HashKey Chain',
+  icons: ['https://multisig.hashkeychain.net/images/logo-round.svg'],
 }
 
 export const EIP155 = 'eip155' as const

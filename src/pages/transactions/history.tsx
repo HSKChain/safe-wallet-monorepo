@@ -25,7 +25,7 @@ const History: NextPage = () => {
   return (
     <>
       <Head>
-        <title>HashKey Safe – Transaction history</title>
+        <title>HSKChain Safe – Transaction history</title>
       </Head>
 
       <TxHeader>

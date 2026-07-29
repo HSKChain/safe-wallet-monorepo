@@ -8,7 +8,7 @@ const SingleTransaction: NextPage = () => {
   return (
     <>
       <Head>
-        <title>HashKey Safe – Message details</title>
+        <title>HSKChain Safe – Message details</title>
       </Head>
 
       <main>

@@ -709,7 +709,7 @@ const Licenses: NextPage = () => {
   return (
     <>
       <Head>
-        <title>HashKey Safe – Licenses</title>
+        <title>HSKChain Safe – Licenses</title>
       </Head>
 
       <main>{IS_OFFICIAL_HOST && <SafeLicenses />}</main>

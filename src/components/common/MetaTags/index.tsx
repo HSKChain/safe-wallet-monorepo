@@ -3,9 +3,9 @@ import { ContentSecurityPolicy, StrictTransportSecurity } from '@/config/securit
 import lightPalette from '@/components/theme/lightPalette'
 import darkPalette from '@/components/theme/darkPalette'
 
-// 使用 HashKey 自有品牌信息, 避免被反钓鱼模型判定为对官方 Safe{Wallet} 的品牌仿冒
-const descriptionText = 'Official self-hosted Safe multisig wallet interface for HashKey Chain.'
-const titleText = 'HashKey Safe'
+// 使用 HSKChain 自有品牌信息, 避免被反钓鱼模型判定为对官方 Safe{Wallet} 的品牌仿冒
+const descriptionText = 'Official self-hosted multisig wallet interface for HashKey Chain (HSKChain Safe).'
+const titleText = 'HSKChain Safe'
 
 const MetaTags = ({ prefetchUrl }: { prefetchUrl: string }) => (
   <>
@@ -42,7 +42,7 @@ const MetaTags = ({ prefetchUrl }: { prefetchUrl: string }) => (
     <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png" />
-    <link rel="mask-icon" href="/favicons/safari-pinned-tab.svg" color="#000" />
+    <link rel="mask-icon" href="/favicons/safari-pinned-tab.svg" color="#AE82F1" />
   </>
 )
 

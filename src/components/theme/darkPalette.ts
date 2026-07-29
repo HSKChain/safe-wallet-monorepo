@@ -1,24 +1,24 @@
 const darkPalette = {
   text: {
-    primary: '#FFFFFF',
-    secondary: '#636669',
-    disabled: '#636669',
+    primary: '#F4F0FF',
+    secondary: '#A89BC4',
+    disabled: '#6E6485',
   },
   primary: {
-    dark: '#0cb259',
-    main: '#12FF80',
-    light: '#A1A3A7',
+    dark: '#8B6CF6',
+    main: '#AE82F1',
+    light: '#D2B8FF',
   },
   secondary: {
-    dark: '#636669',
-    main: '#FFFFFF',
-    light: '#B0FFC9',
-    background: '#1B2A22',
+    dark: '#A89BC4',
+    main: '#F4F0FF',
+    light: '#E8DEFF',
+    background: '#1A1228',
   },
   border: {
-    main: '#636669',
-    light: '#303033',
-    background: '#121312',
+    main: '#6E6485',
+    light: '#2A1F45',
+    background: '#0F0B16',
   },
   error: {
     dark: '#AC2C3B',
@@ -45,20 +45,20 @@ const darkPalette = {
     background: '#2F2318',
   },
   background: {
-    default: '#121312',
-    main: '#121312',
-    paper: '#1C1C1C',
-    light: '#1B2A22',
+    default: '#0F0B16',
+    main: '#0F0B16',
+    paper: '#16101F',
+    light: '#1A1228',
   },
   backdrop: {
-    main: '#636669',
+    main: '#6E6485',
   },
   logo: {
-    main: '#FFFFFF',
-    background: '#303033',
+    main: '#F4F0FF',
+    background: '#2A1F45',
   },
   static: {
-    main: '#121312',
+    main: '#0F0B16',
   },
 }
 
