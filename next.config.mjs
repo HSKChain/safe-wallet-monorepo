@@ -13,8 +13,14 @@ const withPWA = withPWAInit({
   dest: 'public',
   workboxOptions: {
     mode: 'production',
+    // 部署后自动清理旧版本运行时缓存，避免残留缓存喂给用户
+    cleanupOutdatedCaches: true,
   },
   reloadOnOnline: false,
+  // 静态导出站点每个路由都有独立 HTML，禁用“首页当 app-shell”的导航缓存/回退，
+  // 否则弱网/快速刷新时 SW 会把缓存的首页 `/` HTML 返回给 `/welcome` 等路由，导致白屏。
+  cacheStartUrl: false,
+  dynamicStartUrl: false,
   /* Do not precache anything */
   publicExcludes: ['**/*'],
   buildExcludes: [/./],

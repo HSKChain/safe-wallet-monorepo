@@ -7,7 +7,7 @@ const BridgePage: NextPage = () => {
   return (
     <>
       <Head>
-        <title>{'Safe{Wallet} – Bridge'}</title>
+        <title>{'HashKey Safe – Bridge'}</title>
       </Head>
       <Bridge />
     </>
